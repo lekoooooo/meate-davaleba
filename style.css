@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: lightgray;
+  display: flex;
+}
+.mainContainer {
+  max-width: 1440px;
+  display: flex;
+  width: 100%;
+}
+#cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.card {
+  height: 388px;
+  width: 300px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+}
+.favorite {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.txt {
+  display: flex;
+  /* width: 70%; */
+  justify-content: space-around;
+  color: gray;
+  margin-bottom: 50px;
+  margin: auto;
+}
+#recommendedCars {
+  gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about {
+  display: flex;
+
+  justify-content: space-between;
+  width: 256px;
+  margin: 24px auto;
+  align-items: start;
+}
+
+.carImg {
+  width: 232px;
+  height: 72px;
+  margin: 50px auto;
+  margin-left: 20px;
+}
+/*  */
+
+.price {
+  margin-left: 24px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: #333;
+}
+
+.rent {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 116px;
+  height: 44px;
+
+  flex-direction: row;
+  justify-content: space-between;
+}
+.txt {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.txt img {
+  width: 24px;
+  height: 24px;
+}
+span {
+  display: flex;
+  align-items: center;
+}
+
+.price-rent {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 16px;
+  align-items: center;
+  height: 44px;
+}
+
+.ccgt {
+  text-align: center;
+}
+
+.sell-price {
+  display: flex;
+  margin-top: 40px;
+  justify-content: flex-end;
+  font-size: large;
+  color: red;
+}
+
+.ccgt-back {
+  display: flex;
+  height: auto;
+
+  margin-left: 535px;
+}
+.engine {
+  color: yellow;
+}
